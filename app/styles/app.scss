@@ -1,0 +1,24 @@
+$space-large : 5.5rem;
+
+.page-title{
+  margin-top : $space-large;
+  margin-bottom : $space-large;
+}
+
+input [type=search]{
+  box-shadow: none;
+}
+
+h3 {
+  font-size: 1rem;
+}
+.nav-button{
+  padding-right: 2rem;
+  margin-right: 3rem;
+  margin-left:3rem;
+  margin-top:0rem;
+}
+.selectBox{
+  width : 15rem;
+  margin : 0 0 0;
+}
