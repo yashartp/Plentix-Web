@@ -32,7 +32,7 @@ var Nav = React.createClass({
 
           </ul>
         </div>
-        <div className = "top-bar-right">
+        {/* <div className = "top-bar-right">
           <form onSubmit={this.onSearch}>
             <ul className = "menu">
               <li>
@@ -43,15 +43,13 @@ var Nav = React.createClass({
                   <option value="0xCFD582351282cBd61b77F0eb821930729EBF7a0b">0xD907d158aDd61921730B8680C1bE52A8442116B3</option>
                   <option value="0xD907d158aDd61921730B8680C1bE52A8442116B3">0xD907d158aDd61921730B8680C1bE52A8442116B3</option>
                 </select>
-
-                {/* <input type="search" ref="search" placeholder="Your Ethereum Address"/> */}
               </li>
               <li>
                 <input type="submit" className="button nav-button" value="Sync Wallet" />
               </li>
             </ul>
           </form>
-        </div>
+      </div> */}
       </div>
     );
   }

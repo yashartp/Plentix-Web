@@ -15,7 +15,7 @@ var RedeemReferral = React.createClass({
   },
   handleSchemeSubmit: function(schemeId){
     var that= this;
-
+    debugger;
     this.setState({
       isLoading: true,
       discount : false
