@@ -46,7 +46,8 @@ module.exports = {
       RedeemReferralForm : 'app/components/RedeemReferralForm.jsx',
       CreateReferralPromised : 'app/api/CreateReferralPromised.jsx',
       CreateSchemePromised : 'app/api/CreateSchemePromised.jsx',
-      RedeemReferralPromised : 'app/api/RedeemReferralPromised.jsx'
+      RedeemReferralPromised : 'app/api/RedeemReferralPromised.jsx',
+      Web3Unavailable : 'app/components/Web3Unavailable.jsx'
     },
     extensions : ['','.js','.jsx']
   },

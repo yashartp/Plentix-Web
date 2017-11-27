@@ -1,7 +1,7 @@
-var Contract = require('contractconf');
+var getContract = require('contractconf');
 
 function createReferralPromised(schemeId,refereeId){
-
+  let Contract = getContract();
   return new Promise(function(resolve,reject){
     Contract.createReferral(schemeId,refereeId, function(err,res){
         if(res){

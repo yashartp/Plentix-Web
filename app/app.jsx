@@ -15,7 +15,7 @@ $(document).foundation();
 require('style!css!sass!applicationStyles');
 
 ReactDOM.render(
-  <Web3Provider web3UnavailableScreen={() => <div>You need web3!</div>}>
+  <Web3Provider>
     <Router history={hashHistory}>
       <Route path="/" component={Main}>
         <Route path="RedeemReferral" component={RedeemReferral}/>

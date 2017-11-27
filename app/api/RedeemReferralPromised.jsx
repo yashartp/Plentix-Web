@@ -1,7 +1,7 @@
-var Contract = require('contractconf');
+var getContract = require('contractconf');
 
 function RedeemReferralPromised(schemeId){
-
+    let Contract = getContract();
   return new Promise(function(resolve,reject){
     debugger;
     Contract.redeemReferral(schemeId, function(err,res){
